@@ -50,7 +50,7 @@ fetch() {  # $1=相对路径 $2=下载地址 $3=sha256（可空）
 # ---------- 小模型：SD1.5（2.1 GB）----------
 fetch checkpoints/Counterfeit-V2.5_fp16.safetensors \
   "$HF/gsdf/Counterfeit-V2.5/resolve/main/Counterfeit-V2.5_fp16.safetensors" \
-  71e703a0fca0e284dd9868bca3ce63c64084db1f0d68835f0a31e1e4e5b7cca6
+  71e703a0fca0e284dd9868bca3ce63c64084db1f0d68835f0a31e1f4e5b7cca6
 
 # ---------- 大模型：MiniMax H3 最小可用组合（37 GB）----------
 if [ "$WITH_H3" = 1 ]; then
